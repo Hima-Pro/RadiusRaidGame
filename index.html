@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+	<head>
+    <meta charset="UTF-8">
+		<title>Radius Raid</title>
+    <meta name="theme-color" content="#272727" />
+    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" id="favicon" />
+		<link rel="manifest" href="assets/manifest.json">
+		<link rel="stylesheet" href="assets/css/fa/css/all.css">
+		<link rel="stylesheet" href="assets/css/style.css">
+	</head>
+	<body>
+		<div id="left-joystick" class="joystick"></div>
+		<div id="right-joystick" class="joystick"></div>
+		<div id="wrap">
+			<div id="wrap-inner">
+				<canvas id="cbg1"></canvas>
+				<canvas id="cbg2"></canvas>
+				<canvas id="cbg3"></canvas>
+				<canvas id="cbg4"></canvas>
+				<canvas id="cmg"></canvas>
+				<canvas id="cfg"></canvas>
+			</div>
+			<div id="options" dir="rtl">
+	  	  <button tooltip="Full screen" onclick="full()"><i class="fa fa-expand"></i></button>
+	  	  <button tooltip="Zoom in" onclick="appZoom(0.1)"><i class="fa fa-plus"></i></button>
+	  	  <button tooltip="Zoom out" onclick="appZoom(-0.1)"><i class="fa fa-minus"></i></button>
+	  	  <button tooltip="Play/Pause" onclick="alert('Done')"><i class="fa fa-play"></i></button>
+	  	  <button tooltip="Infinity states" onclick="mod('all')"><i class="fa fa-skull"></i></button>
+			</div>
+		</div>
+		<script>var $ = {};</script>
+		<script src="assets/js/script.js"></script>
+		<script src="assets/scripts/touch-compat.js"></script>
+		<script src="assets/scripts/jsfxr.js"></script>
+		<script src="assets/scripts/util.js"></script>
+		<script src="assets/scripts/storage.js"></script>
+		<script src="assets/scripts/definitions.js"></script>
+		<script src="assets/scripts/audio.js"></script>
+		<script src="assets/scripts/text.js"></script>
+		<script src="assets/scripts/hero.js"></script>
+		<script src="assets/scripts/enemy.js"></script>
+		<script src="assets/scripts/bullet.js"></script>
+		<script src="assets/scripts/explosion.js"></script>
+		<script src="assets/scripts/powerup.js"></script>
+		<script src="assets/scripts/particle.js"></script>
+		<script src="assets/scripts/particleemitter.js"></script>
+		<script src="assets/scripts/textpop.js"></script>
+		<script src="assets/scripts/levelpop.js"></script>
+		<script src="assets/scripts/button.js"></script>
+		<script src="assets/scripts/game.js"></script>
+	</body>
+</html>

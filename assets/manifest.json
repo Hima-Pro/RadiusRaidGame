@@ -1,0 +1,23 @@
+{
+  "name": "Raid Radius",
+  "short_name": "Raid Radius",
+  "start_url": "../index.html",
+  "scope": "../",
+  "display": "fullscreen",
+  "background_color": "#080808",
+  "theme_color": "#080808",
+  "orientation":"landscape",
+  "description": "Raid Radius - War on the Space created by @jackrugile and developed by tdim.me",
+  "icons": [
+    {
+      "src": "images/logo-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "images/logo-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
